@@ -13,6 +13,7 @@ body {
 
     font-family: 'Oxygen', sans-serif;
     text-align: center;
+    
 }
 
 .container {
@@ -21,38 +22,90 @@ body {
     justify-content: center;
     align-items: center;
     /* width: 90%; */
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 1em;
     /* padding: .5em; */
 
-    border: 2px solid magenta;
+    /* border: 2px solid magenta; */
 }
 
 .option-container {
     margin: 1em;
-    padding: 1em;
+    padding: 2em 4em;
     /* height: 600px;
     width: 500px; */
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 
-    border: 2px solid blue;
+    border: 1px solid #F3F3F3;
+    box-shadow: 0 0 0 1.5px #F3F3F3;
 }
 
 .option-title,
 .option-subtitle,
 .option-img {
-    margin-bottom: 1em;
+    margin-bottom: .5em;
+}
+
+.option-subtitle,
+.option-price-text-below-first,
+.option-price-text-below-second,
+.option-price-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8;
+    /* margin: auto 3em; */
+
+    /* border: 2px solid magenta; */
 }
 
 .option-title {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
 .option-img {
     object-fit: cover;
     width: 100%;
+}
+
+.option-price-number {
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+/* .option-price-text-dollar-sign {
+    font-display ;
+} */
+
+sup {
+    font-size: 1.5rem;
+    vertical-align: text-top;
+}
+
+sub {
+    font-size: 2rem;
+    vertical-align:sub;
+}
+
+.option-price-text {
+    margin-top: 1.2em;
+}
+
+.option-price-text-contact-us {
+    font-size: 1.5rem;
+    padding: .3em .8em .4em;
+    border: 2px solid black;
+    border-radius: 6px;
+    
+}
+
+.bg-color {
+    /*   ?   for Firefox: */
+    /* background-color: #fcc72f; */
+
+    /*   ?    for Chrome : */
+    background-color: rgb(253 208 6);    
 }
