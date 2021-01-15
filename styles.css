@@ -12,17 +12,20 @@ body {
     height: 100vh;
 
     font-family: 'Oxygen', sans-serif;
+    text-align: center;
 }
 
 .container {
     display: flex;
-    /* flex-direction: column; */
+    
     justify-content: center;
     align-items: center;
-    width: 90%;
+    /* width: 90%; */
     max-width: 1200px;
-    margin: 2em;
-    padding: 1em;
+    margin: 1em;
+    /* padding: .5em; */
+
+    border: 2px solid magenta;
 }
 
 .option-container {
@@ -35,7 +38,18 @@ body {
     justify-content: space-evenly;
     align-items: center;
 
-    /* border: 2px solid magenta; */
+    border: 2px solid blue;
+}
+
+.option-title,
+.option-subtitle,
+.option-img {
+    margin-bottom: 1em;
+}
+
+.option-title {
+    font-size: 1.6rem;
+    font-weight: 700;
 }
 
 .option-img {
