@@ -5,20 +5,31 @@
 }
 
 body {
+    
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* flex-wrap: wrap; */
+    /* height: 100vh; */
 
     font-family: 'Oxygen', sans-serif;
     text-align: center;
     
 }
 
+/* @media (min-width: 500px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+} */
+
 .container {
     display: flex;
-    
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     /* width: 90%; */
