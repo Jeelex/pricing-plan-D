@@ -125,6 +125,13 @@ sub {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   border-radius: 50px;
+  cursor: pointer;
+}
+
+#dark-mode-btn:hover,
+#dark-mode-btn:focus {
+  background-color: #facf57;
+  color: black;
 }
 
 
