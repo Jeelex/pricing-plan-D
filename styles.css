@@ -132,6 +132,17 @@ sub {
   /* background-color: rgb(253 208 6); */
 }
 
+.tag {
+  background-color: black;
+  color: white;
+  font-size: var(--fs-body);
+  font-weight: var(--fw-bold);
+  padding: .3em 1em;
+  border-radius: 25px;
+  margin-top: -45px;
+  position: absolute;
+}
+
 .hidden-text {
   color: white;
 }
