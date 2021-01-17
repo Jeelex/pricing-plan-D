@@ -114,6 +114,7 @@ sub {
 
 .hidden-text {
   color: transparent;
+  user-select: none;
 }
 
 
