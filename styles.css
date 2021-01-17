@@ -25,26 +25,7 @@ body {
   text-align: center;
 }
 
-@media (min-width: 450px) {
-  :root {
-    --fs-title: 2.3rem;
-    --fs-price-number: 6rem;
-    --fs-body: 1.2rem;
-    --fs-sup: 1.5rem;
-    --fs-sub: 2rem;
-  }
-}
 
-@media (min-width: 1500px) {
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 100vh;
-  }
-}
 
 .container {
   display: flex;
@@ -66,7 +47,7 @@ body {
   align-items: center;
 
   margin: 1em;
-  padding: 2em 4em;
+  padding: 2em 3em;
 
   border: 1px solid #f3f3f3;
   box-shadow: 0 0 0 1.5px #f3f3f3;
@@ -74,8 +55,9 @@ body {
 
 .option-title,
 .option-subtitle,
-.option-img {
-  margin-bottom: 0.5em;
+.option-img,
+.option-price-number {
+  margin-bottom: 0.3em;
 }
 
 .option-subtitle,
@@ -89,10 +71,27 @@ body {
   /* border: 2px solid magenta; */
 }
 
+/* TODO NEED TO PLAY AROUND WITH .option-title-div ad figure out margin or padding .... */
+
+.option-title-div {
+  /* border: 2px solid magenta; */
+  /* padding: 1em; */
+  /* width: 100%; */
+}
+
 .option-title {
   font-size: var(--fs-title);
   font-weight: var(--fw-bold);
 }
+
+/* .option-subtitle {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+
+  border: 2px solid magenta;
+} */
 
 .option-img {
   object-fit: cover;
@@ -127,8 +126,36 @@ sub {
 
 .bg-color {
   /*   ?   for Firefox: */
-  /* background-color: #fcc72f; */
+  background-color: #fcc72f;
 
   /*   ?    for Chrome : */
-  background-color: rgb(253 208 6);
+  /* background-color: rgb(253 208 6); */
+}
+
+.hidden-text {
+  color: white;
+}
+
+
+/* ? ///////////  Media Queries    */
+
+@media (min-width: 450px) {
+  :root {
+    --fs-title: 2.3rem;
+    --fs-price-number: 6rem;
+    --fs-body: 1rem;
+    --fs-sup: 1.5rem;
+    --fs-sub: 2rem;
+  }
+}
+
+@media (min-width: 1420px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+  }
 }
