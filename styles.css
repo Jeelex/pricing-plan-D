@@ -1,4 +1,4 @@
-/* ***** custom properties */
+/* * //// custom properties */
 
 :root {
   --fontfam-primary: 'Oxygen', sans-serif;
@@ -25,19 +25,12 @@ body {
   text-align: center;
 }
 
-
-
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* width: 90%; */
-  /* max-width: 1200px; */
   margin: 0;
-  /* padding: .5em; */
-
-  /* border: 2px solid magenta; */
 }
 
 .option-container {
@@ -67,31 +60,7 @@ body {
   font-size: var(--fs-body);
   font-weight: var(--fw-reg);
   line-height: 1.8;
-
-  /* border: 2px solid magenta; */
 }
-
-/* TODO NEED TO PLAY AROUND WITH .option-title-div ad figure out margin or padding .... */
-
-.option-title-div {
-  /* border: 2px solid magenta; */
-  /* padding: 1em; */
-  /* width: 100%; */
-}
-
-.option-title {
-  font-size: var(--fs-title);
-  font-weight: var(--fw-bold);
-}
-
-/* .option-subtitle {
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right: 0;
-
-  border: 2px solid magenta;
-} */
 
 .option-img {
   object-fit: cover;
