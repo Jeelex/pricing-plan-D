@@ -116,6 +116,18 @@ sub {
   color: white;
 }
 
+#dark-mode-btn {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  background-color: black;
+  color: #facf57;
+  padding: .5em 1em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  border-radius: 50px;
+}
+
+
 
 /* ? ///////////  Media Queries    */
 
