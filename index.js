@@ -4,7 +4,7 @@ const tag = document.querySelector('.tag')
 const lightModeBtn = document.getElementById('light-mode-btn')
 const hiddenText = document.querySelector('.hidden-text')
 
-
+// Dark Mode Button
 darkModeBtn.addEventListener('click', () => {
   document.body.style.backgroundColor = 'black'
   document.body.style.color = "white"
@@ -19,6 +19,7 @@ darkModeBtn.addEventListener('click', () => {
   hiddenText.style.color = 'black'
 })
 
+// Light Mode Button
 lightModeBtn.addEventListener('click', () => {
   document.body.style.backgroundColor = 'initial'
   document.body.style.color = "initial"
