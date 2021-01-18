@@ -2,7 +2,6 @@
 
 :root {
   --fontfam-primary: 'Oxygen', sans-serif;
-  /* --fontfam-numbers: "Montserrat", sans-serif; */
 
   --fw-reg: 400;
   --fw-bold: 700;
@@ -65,6 +64,7 @@ body {
 .option-img {
   object-fit: cover;
   width: 100%;
+  height: auto;
 }
 
 .option-price-number {
@@ -139,19 +139,6 @@ sub {
 #dark-mode-btn:focus {
   background-color: #facf57;
   color: black;
-}
-
-#light-mode-btn {
-  background-color: black;
-  color: white;
-  display: none;
-}
-
-#light-mode-btn:hover,
-#light-mode-btn:focus {
-  background-color: #facf57;
-  color: black;
-  display: none;
 }
 
 
