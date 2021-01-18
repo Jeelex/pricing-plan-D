@@ -106,7 +106,7 @@ sub {
   color: white;
   font-size: var(--fs-body);
   font-weight: var(--fw-bold);
-  padding: .3em 1em;
+  padding: 0.3em 1em;
   border-radius: 25px;
   margin-top: -45px;
   position: absolute;
@@ -117,13 +117,12 @@ sub {
   user-select: none;
 }
 
-
 /* ? ////////  Buttons    */
 
 .btn {
   font-size: 1.2rem;
   letter-spacing: 1px;
-  padding: .5em 1em;
+  padding: 0.5em 1em;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   border-radius: 50px;
@@ -132,7 +131,7 @@ sub {
 
 #dark-mode-btn {
   background-color: black;
-  color: #facf57;  
+  color: #facf57;
 }
 
 #dark-mode-btn:hover,
@@ -140,7 +139,6 @@ sub {
   background-color: #facf57;
   color: black;
 }
-
 
 /* ? ///////////  Media Queries    */
 
